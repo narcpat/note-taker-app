@@ -19,7 +19,8 @@ This is a web app that allows you to create and store notes.
 Repository
 https://github.com/narcpat/note-taker-app
 
-App link:
+Heroku App link
+https://nodejs-note-taker-app.herokuapp.com/
 
 ![Screenshot of the Note Taker App](./Develop/public/assets/images/notetaker-app-screenshot.png)
 
