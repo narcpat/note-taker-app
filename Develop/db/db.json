@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"title":"Test Title","text":"Test text","id":1},{"title":"This is a new note","text":"Just testing it out","id":2},{"title":"Third time is a charm","text":"Let's see if this works ","id":3},{"title":"This is another note","text":"Let's hope there's no errors","id":4},{"title":"I got 5 on it!","text":"Who sang that track?","id":5}]
