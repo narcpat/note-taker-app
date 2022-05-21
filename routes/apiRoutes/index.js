@@ -23,7 +23,6 @@ router.post("/notes", (req, res) => {
     (err, data) => {
       if (err) throw err;
       let notes = JSON.parse(data);
-      res.json(notes);
       console.log(req.body);
       let callNotes = req.body;
       notes.push(callNotes);
@@ -38,7 +37,7 @@ router.post("/notes", (req, res) => {
         JSON.stringify(notes),
         (err, data) => {
           if (err) throw err;
-          res.json(notes);
+          res.sendStatus(200);
         }
       );
     }
